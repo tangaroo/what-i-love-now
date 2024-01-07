@@ -1,4 +1,5 @@
 "use client";
+import "./globals.css";
 
 import { useState } from "react";
 import Head from "next/head";
@@ -14,7 +15,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between pt-16 bg-slate-50 sm:pt-8">
       <Head>
         {" "}
-        <link rel="icon" href="/Logo.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Header selected={selected} setSelected={setSelected} />
       <Intro />
