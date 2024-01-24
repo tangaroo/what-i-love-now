@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Header selected={selected} setSelected={setSelected} />
       <Intro />
-      <div className="lg:grid lg:grid-cols-3 lg:gap-x-12 lg:gap-y-2 lg:w-full bg-slate-50 lg:max-w-screen-lg m-auto md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-2md:px-8 sm:grid-cols-1 sm:px-4">
+      <div className="w-full lg:grid lg:grid-cols-3 lg:gap-x-12 lg:gap-y-2 lg:w-full bg-slate-50 lg:max-w-screen-lg m-auto md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-2md:px-8 sm:grid-cols-1 sm:px-4">
         <Content selected={selected} />
       </div>
       <Footer />

@@ -28,20 +28,20 @@
     "description": "Bag charm",
     "body": "This was a surprise Christmas gift from an inside joke. I would often leave the house without an emergency chocolate bar and end up doing a panic run to the nearest convenience store to get a Kit Kat because my blood sugar levels have dropped. Most of why I love this is because of the backstory, but I am also a huge fan of Anya’s playful designs. And now, I will always have an emergency Kit Kat with me.",
     "notes": "A gift originally from Florence, Italy",
-    "type": ["all", "use"],
+    "type": ["all", "use", "see"],
     "url": "/images/03.png",
     "alt": "A kit kat bar made in leather"
   },
   {
     "id": "04",
     "link": "/",
-    "title": "Loewe x Spirited Away",
-    "description": "Bag",
-    "body": "Shortly after moving back to Glasgow and into the newly purchased home, I came across the Ghibli collaboration with Loewe on a gloomy January day. This was also the start of the personal collection of limited edition luxury handbags (that I may never be brave enough to take outside).",
-    "notes": "A self gift from Madrid, Spain",
+    "title": "Ricoh GR IIIx",
+    "description": "Camera",
+    "body": "Whenever I travel, I have my Sony Alpha camera with me for the occasional street photo. As much as I love shooting full frame, it is quite a big camera to lug about all day. When I heard about the pocket factor of the Ricoh and use of recipes, it was a no brainer.",
+    "notes": "Purchased in Glasgow, Scotland",
     "type": ["all", "use"],
     "url": "/images/04.png",
-    "alt": "A canvas and leather hammock handbag from Loewe"
+    "alt": "A pocketable Ricoh GR IIIx camera in black"
   },
   {
     "id": "05",
@@ -57,13 +57,13 @@
   {
     "id": "06",
     "link": "/",
-    "title": "Annie Bing Diana Jacket",
-    "description": "Jacket",
-    "body": "Back when I moved back to Glasgow, I was taking a stroll around the store with no intentions of shopping when I noticed this jacket on a hanger. I loved the menswear inspired fit with the double breasting closing and wool fabric. That was also when I realised I was ready to replace my bomber and denim jackets with more classic pieces.",
-    "notes": "Purchased in Glasgow, Scotland",
-    "type": ["all", "wear"],
+    "title": "Loewe x Spirited Away",
+    "description": "Bag",
+    "body": "Shortly after moving back to Glasgow and into the newly purchased home, I came across the Ghibli collaboration with Loewe on a gloomy January day. This was also the start of the personal collection of limited edition luxury handbags (that I may never be brave enough to take outside).",
+    "notes": "A self gift from Madrid, Spain",
+    "type": ["all", "use"],
     "url": "/images/06.png",
-    "alt": "Black and white tweed double breasted jacket"
+    "alt": "A canvas and leather hammock handbag from Loewe"
   },
   {
     "id": "07",
@@ -90,13 +90,13 @@
   {
     "id": "09",
     "link": "/",
-    "title": "Desmond & Dempsey Rayas Print",
-    "description": "Pyjamas",
-    "body": "Although I love my minimal, muted capsule wardrobe, I ended up with a few sets of D&D PJs purely for opulence. I wanted to get rid of my mismatched Primark PJs and this bold tiger print stood out to me. Small downside - they need to be ironed after each wash.",
+    "title": "Annie Bing Diana Jacket",
+    "description": "Jacket",
+    "body": "Back when I moved back to Glasgow, I was taking a stroll around the store with no intentions of shopping when I noticed this jacket on a hanger. I loved the menswear inspired fit with the double breasting closing and wool fabric. That was also when I realised I was ready to replace my bomber and denim jackets with more classic pieces.",
     "notes": "Purchased in Glasgow, Scotland",
     "type": ["all", "wear"],
     "url": "/images/09.png",
-    "alt": "Black and orange tiger printed pyjamas set"
+    "alt": "Black double faced wool jacket from COS"
   },
   {
     "id": "10",
@@ -112,13 +112,13 @@
   {
     "id": "11",
     "link": "/",
-    "title": "COS Double Faced Wool Jacket",
-    "description": "Jacket",
-    "body": "After my commitment to a capsule wardrobe, the one item I was missing was a warm, wool shacket in a neutral colour. Intrigued by COS, this was the first item I had purchased from the brand. It is my everyday casual jacket on a day with clear skies - it is warm, the wool feels luxurious and I love use of a raglan sleeve on a wool jacket.",
+    "title": "Desmond & Dempsey Rayas Print",
+    "description": "Pyjamas",
+    "body": "Although I love my minimal, muted capsule wardrobe, I ended up with a few sets of D&D PJs purely for opulence. I wanted to get rid of my mismatched Primark PJs and this bold tiger print stood out to me. Small downside - they need to be ironed after each wash.",
     "notes": "Purchased in Glasgow, Scotland",
     "type": ["all", "wear"],
     "url": "/images/11.png",
-    "alt": "Black double faced wool jacket from COS"
+    "alt": "Black and orange tiger printed pyjamas set"
   },
   {
     "id": "12",
@@ -193,7 +193,7 @@
     "description": "Lunch box",
     "notes": "A gift from Glasgow, Scotland",
     "body": "This salmon sashimi lunch box is still one of my favourite unexpected Christmas gifts. Probably a designer thing but I love the playful yet functional design, it made my sad looking lunches so much happier. ",
-    "type": ["all", "use"],
+    "type": ["all", "use", "see"],
     "url": "/images/18.png",
     "alt": "A two tiered lunch box thar looks like a salmon sashimi"
   },
