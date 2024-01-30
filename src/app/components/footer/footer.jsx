@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="flex flex-row items-start justify-between w-full px-8 pt-12 sm:flex-col sm:px-0 sm:pb-4">
+    <div className="flex items-start md:flex-row md:justify-between md:px-8 md:pt-12 w-full  sm:flex-col sm:px-0 sm:pb-4">
   <p className="text-sm text-slate-500">
         Built with{" "}
         <a
