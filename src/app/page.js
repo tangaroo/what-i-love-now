@@ -12,15 +12,17 @@ export default function Home() {
   const [selected, setSelected] = useState("all");
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between pt-16 bg-slate-50 sm:pt-8">
+    <main className="flex flex-col min-h-screen bg-slate-50 p-12 sm:p-4">
       <Head>
-        {" "}
         <link rel="icon" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.svg" />
       </Head>
       <Header selected={selected} setSelected={setSelected} />
-      <Intro />
-      <div className="w-full lg:grid lg:grid-cols-3 lg:gap-x-12 lg:gap-y-2 lg:w-full bg-slate-50 lg:max-w-screen-lg m-auto md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-2md:px-8 sm:grid-cols-1 sm:px-4">
-        <Content selected={selected} />
+      <div className="flex-1">
+        <Intro />
+        <div className="w-full lg:grid lg:grid-cols-3 lg:gap-x-12 lg:gap-y-2 lg:max-w-screen-2xl m-auto md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-2 md:px-8 sm:grid-cols-1">
+          <Content selected={selected} />
+        </div>
       </div>
       <Footer />
     </main>

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <div className="md:flex md:flex-row md:justify-between items-center md:pt-16 md:pb-11 px-4 md:max-w-screen-lg w-full sm:flex-col sm:pt-10 sm:pb-10">
-      <p className="text-sm text-slate-500">
+    <div className="flex flex-row items-start justify-between w-full px-8 pt-12 sm:flex-col sm:px-0 sm:pb-4">
+  <p className="text-sm text-slate-500">
         Built with{" "}
         <a
           className="hover:text-slate-600"

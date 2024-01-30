@@ -1,6 +1,13 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import Footer from "../footer/footer";
+
+export const metadata = {
+  title: "What I love now",
+  description: "A collection carefully curated by Cassandra Tang",
+};
+
 
 const ObjectDetails = ({ data }) => {
   const logo = (
@@ -17,7 +24,10 @@ const ObjectDetails = ({ data }) => {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between pt-16 bg-slate-50 sm:pt-8">
       <Head>
-        <link rel="icon" href="/Logo.ico" />
+        <title>{metadata.title} - {data.title}</title>
+        <meta name="description" content={metadata.description} />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <header className="flex flex-col md:flex-row md:items-center md:justify-between md:max-w-screen-lg w-full sm:flex-col md:px-8 sm:px-4 sm:justify-start">
         <Link className="text-sm" href="/">
@@ -28,12 +38,21 @@ const ObjectDetails = ({ data }) => {
       </header>
       <div className="lg:gap-x-12 lg:gap-y-2 lg:w-full bg-slate-50 lg:max-w-screen-lg m-auto md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-2 md:px-8 sm:grid-cols-1 sm:px-4">
         <div className="padding-6 flex content-center items-center aspect-square bg-slate-100 lg:mb-0 sm:mb-6">
-          <img
-            className="my-4 object-contain aspect-square"
+<div className="relative w-full object-contain aspect-square bg-slate-100 transition-all duration-150 hover:bg-[#EDF1F7]">
+          <Image
+            className="object-contain w-full h-full transition-all duration-150 p-12"
+            fill={true}
             src={data.url}
             alt={data.alt}
-            loading="lazy"
+            sizes="100%"
           />
+          {data.type.includes("want") && (
+            <div className="absolute top-2 right-2 bg-slate-600 text-white text-xs px-2 py-1 rounded">
+              ✦ Wishlist
+            </div>
+          )}
+        </div>
+
         </div>
         <div className="flex flex-col items-start justify-center">
           <h2 className="text-2xl font-bold text-slate-800">

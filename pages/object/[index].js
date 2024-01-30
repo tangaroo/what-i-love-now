@@ -23,6 +23,7 @@ export async function getStaticProps({ params }) {
   const cardData = data.find((item) => item.id === index);
 
   return {
+
     props: { data: cardData },
   };
 }
