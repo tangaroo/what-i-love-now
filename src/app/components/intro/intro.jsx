@@ -13,7 +13,7 @@ export default function Intro() {
           Carefully curated by{" "}
           <a
             className="hover:text-slate-500"
-            href="https://cassandratang.me"
+            href="https://cassandratang.com"
             target="_blank"
           >
             Cassandra Tang
