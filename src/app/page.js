@@ -20,7 +20,7 @@ export default function Home() {
       <Header selected={selected} setSelected={setSelected} />
       <div className="flex-1">
         <Intro />
-        <div className="w-full lg:grid lg:grid-cols-3 lg:gap-x-12 lg:gap-y-2 lg:max-w-screen-2xl m-auto md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-2 md:px-8 sm:grid-cols-1">
+        <div className="w-full xl:grid-cols-4 lg:grid lg:grid-cols-3 lg:gap-x-12 lg:gap-y-2 lg:max-w-screen-2xl m-auto md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-2 md:px-8 sm:grid-cols-1">
           <Content selected={selected} />
         </div>
       </div>

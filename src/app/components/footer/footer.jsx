@@ -21,8 +21,8 @@ export default function Footer() {
       </p>
       <p className="text-sm text-slate-500 mt-0 sm:mt-2">
         Say hello @{" "}
-        <a className="hover:text-slate-800" href="https://cassandratang.me">
-          cassandratang.me
+        <a className="hover:text-slate-800" href="https://cassandratang.com">
+          cassandratang.com
         </a>
       </p>
     </div>
