@@ -4,9 +4,9 @@ export default function SEO({ title, description, image, url }) {
   const seo = {
     title: title || "What I love now",
     description:
-      description || "A curated collection of 20 favourite current items",
-    image: image || "/ct-siteimage.png",
-    url: url || "https://cassandratang.me",
+      description || "A list of curated objects that I currently love and the stories behind them",
+    image: image || "/siteimage.jpg",
+    url: url || "https://what-i-love-now.vercel.app/",
   };
   return (
     <Head>
