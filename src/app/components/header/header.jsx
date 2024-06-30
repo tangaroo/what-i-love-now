@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 export default function Header({ selected, setSelected }) {
+  const [isOpen, setIsOpen] = useState(false);
+
   const logo = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -10,56 +14,79 @@ export default function Header({ selected, setSelected }) {
     </svg>
   );
 
+  const toggleMenu = () => setIsOpen(!isOpen);
+
   return (
-    <header className="fixed top-0 start-0 z-50 w-full bg-slate-50 md:flex md:flex-row md:justify-between md:py-8 md:px-12 sm:flex-col sm:py-6 sm:px-8 sm:justify-start ">
-      <h1 className="flex gap-4 text-lg items-center md:mb-0 sm:mb-4">
-        {logo} What I love now{" "}
+    <header className="fixed top-0 start-0 z-50 w-full bg-slate-50 flex justify-between items-center md:py-8 md:px-12 sm:py-6 sm:px-6">
+      <h1 className="flex gap-4 text-lg items-center md:mb-0">
+        {logo} What I love now
       </h1>
-      <div className="flex items-center gap-x-2 text-base">
+      <div className="relative">
         <button
-          className={`${
-            selected === "all"
-              ? "active bg-inherit text-slate-900 text-sm"
-              : "hover:bg-inherit hover:text-slate-800 text-slate-400 text-sm"
-          } rounded-md py-1 px-4 sm:pl-1 sm:pr-4`}
-          onClick={() => setSelected("all")}
+          onClick={toggleMenu}
+          className="rounded-md bg-slate-100 py-2 px-4 text-sm text-slate-900 hover:bg-slate-200"
         >
-          All
+          Filter
         </button>
-
-        <button
-          className={`${
-            selected === "wardrobe"
-              ? "active bg-inherit text-slate-900 text-sm"
-              : "hover:bg-inherit hover:text-slate-800 text-slate-400 text-sm"
-          } rounded-md py-1 px-4`}
-          onClick={() => setSelected("wardrobe")}
-        >
-          Wardrobe
-        </button>
-
-        <button
-          className={`${
-            selected === "work"
-              ? "active bg-inherit text-slate-900 text-sm"
-              : "hover:bg-inherit hover:text-slate-800 text-slate-400 text-sm"
-          } rounded-md py-1 px-4`}
-          onClick={() => setSelected("work")}
-        >
-          Work
-        </button>
-
-        <button
-          className={`${
-            selected === "home"
-              ? "active bg-inherit text-slate-900 text-sm"
-              : "hover:bg-inherit hover:text-slate-800 text-slate-400 text-sm"
-          } rounded-md py-1 px-4`}
-          onClick={() => setSelected("home")}
-        >
-          Home
-        </button>
-
+        {isOpen && (
+          <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg transition-transform transform ease-out duration-200">
+            <button
+              className={`${
+                selected === "all" ? "text-slate-900" : "text-slate-400"
+              } block w-full text-left px-4 py-2 text-sm hover:bg-slate-100 hover:text-slate-800`}
+              onClick={() => {
+                setSelected("all");
+                toggleMenu();
+              }}
+            >
+              All
+            </button>
+            <button
+              className={`${
+                selected === "wardrobe" ? "text-slate-900" : "text-slate-400"
+              } block w-full text-left px-4 py-2 text-sm hover:bg-slate-100 hover:text-slate-800`}
+              onClick={() => {
+                setSelected("books");
+                toggleMenu();
+              }}
+            >
+              Library
+            </button>
+            <button
+              className={`${
+                selected === "wardrobe" ? "text-slate-900" : "text-slate-400"
+              } block w-full text-left px-4 py-2 text-sm hover:bg-slate-100 hover:text-slate-800`}
+              onClick={() => {
+                setSelected("wardrobe");
+                toggleMenu();
+              }}
+            >
+              Wardrobe
+            </button>
+            <button
+              className={`${
+                selected === "work" ? "text-slate-900" : "text-slate-400"
+              } block w-full text-left px-4 py-2 text-sm hover:bg-slate-100 hover:text-slate-800`}
+              onClick={() => {
+                setSelected("work");
+                toggleMenu();
+              }}
+            >
+              Work
+            </button>
+            <button
+              className={`${
+                selected === "home" ? "text-slate-900" : "text-slate-400"
+              } block w-full text-left px-4 py-2 text-sm hover:bg-slate-100 hover:text-slate-800`}
+              onClick={() => {
+                setSelected("home");
+                toggleMenu();
+              }}
+            >
+              Home
+            </button>
+          </div>
+        )}
       </div>
     </header>
   );
