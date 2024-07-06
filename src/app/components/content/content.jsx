@@ -57,7 +57,7 @@ const Content = ({ selected }) => {
           </div>
           <div className="block gap-2">
             <div className="flex justify-between mt-4">
-              <p className="text-sm text-slate-800">{data.title}</p>
+              <p className="text-sm text-slate-800 mr-4">{data.title}</p>
               <p className="text-sm text-slate-800">{data.id}</p>
             </div>
             <p className="text-sm text-gray-400 pb-4">{data.description}</p>
