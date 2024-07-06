@@ -1,12 +1,20 @@
 import data from "../../data.json";
 import Image from "next/image";
-
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Modal from "../modal/modal";
 
 const Content = ({ selected }) => {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [imageData, setImageData] = useState([]);
+
+  useEffect(() => {
+    const updatedData = data.map((item, index) => ({
+      ...item,
+      id: data.length - index, // Assign IDs starting from highest to lowest
+    }));
+    setImageData(updatedData);
+  }, []);
 
   const openModal = (image) => {
     setSelectedImage(image);
@@ -18,14 +26,14 @@ const Content = ({ selected }) => {
     setModalOpen(false);
   };
 
-  const listofImages =
+  const listOfImages =
     selected === "all"
-      ? data
-      : data.filter((data) => data.type.includes(selected));
+      ? imageData
+      : imageData.filter((data) => data.type.includes(selected));
 
   return (
     <>
-      {listofImages.map((data) => (
+      {listOfImages.map((data) => (
         <div
           key={`${data.id}-${data.title}`}
           className="block my-12 sm:my-6 relative"
@@ -58,35 +66,35 @@ const Content = ({ selected }) => {
       ))}
       {modalOpen && (
         <Modal onClose={closeModal}>
-  <div className="w-full max-w-screen-lg mx-auto grid grid-cols-1 gap-6">
-    <div className="aspect-square bg-slate-100">
-      <div className="relative w-full h-full object-contain bg-slate-100 transition-all duration-150">
-        <Image
-          className="object-contain w-full h-full transition-all duration-150 p-12"
-          fill={true}
-          src={selectedImage.url}
-          alt={selectedImage.alt}
-          sizes="100%"
-        />
-        {selectedImage.type.includes("want") && (
-          <div className="absolute top-2 right-2 bg-slate-600 text-white text-xs px-2 py-1 rounded">
-            ✦ Wishlist
+          <div className="w-full max-w-screen-lg mx-auto grid grid-cols-1 gap-6">
+            <div className="aspect-square bg-slate-100">
+              <div className="relative w-full h-full object-contain bg-slate-100 transition-all duration-150">
+                <Image
+                  className="object-contain w-full h-full transition-all duration-150 p-12"
+                  fill={true}
+                  src={selectedImage.url}
+                  alt={selectedImage.alt}
+                  sizes="100%"
+                />
+                {selectedImage.type.includes("want") && (
+                  <div className="absolute top-2 right-2 bg-slate-600 text-white text-xs px-2 py-1 rounded">
+                    ✦ Wishlist
+                  </div>
+                )}
+              </div>
+            </div>
+            <div className="flex flex-col items-start justify-center">
+              <h2 className="text-xl font-bold text-slate-800">
+                {selectedImage.id} / {selectedImage.title}
+              </h2>
+              <h3 className="text-md text-slate-400 mb-6">
+                {selectedImage.description}
+              </h3>
+              <p className="text-sm text-slate-800 mb-4">{selectedImage.body}</p>
+              <p className="text-sm text-slate-400 mb-2">{selectedImage.notes}</p>
+            </div>
           </div>
-        )}
-      </div>
-    </div>
-    <div className="flex flex-col items-start justify-center">
-      <h2 className="text-xl font-bold text-slate-800">
-        {selectedImage.id} / {selectedImage.title}
-      </h2>
-      <h3 className="text-md text-slate-400 mb-6">
-        {selectedImage.description}
-      </h3>
-      <p className="text-sm text-slate-800 mb-4">{selectedImage.body}</p>
-      <p className="text-sm text-slate-400 mb-2">{selectedImage.notes}</p>
-    </div>
-  </div>
-</Modal>
+        </Modal>
       )}
     </>
   );

@@ -7,7 +7,7 @@ export default function Intro() {
         </p>
         <p className="text-sm text-slate-800">
           What I love now is a simple inventory of curated everyday items that
-          I currently love and use in my daily life as a designer.
+          I currently love and use (or want) in my daily life as a designer.
         </p>
         <p className="text-sm pt-8 text-slate-800">
           Carefully curated by{" "}

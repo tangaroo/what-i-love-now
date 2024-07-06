@@ -1,16 +1,41 @@
 [
   {
-    "id": "56",
+    "title": "Cooking with Scorsese: The Collection",
+    "description": "Book",
+    "notes": "£28.00 from Hato Store",
+    "body": "Big fan of how it's designed and the concept of bringing cooking and classic films together.",
+    "type": ["all", "books", "want"],
+    "url": "/images/cooking-with-scorsese.png",
+    "alt": "A slim black publication, 'Cooking with Scorsese'."
+  },
+  {
+    "title": "Donni Rib T-Shirt",
+    "description": "T-Shirt",
+    "notes": "Purchased in Glasgow, Scotland",
+    "body": "A classic staple made out of a beautiful, thick rib material that is perfect for the Scottish summers.",
+    "type": ["all", "wardrobe"],
+    "url": "/images/donni-tee.png",
+    "alt": "A simple black ribbed T-shirt by Donni"
+  },
+  {
     "title": "The Forfeit by Dave Pollot",
     "description": "Art",
     "notes": "$65.00 from Dave Pollot",
     "body": "One of the art pieces for the home - altered thrift art paintings by New York artist, Dave Pollot.",
-    "type": ["all", "home","want"],
+    "type": ["all", "home", "want"],
     "url": "/images/dave-pollot.png",
     "alt": "An altered thirft art painting by Dave Pollot"
   },
   {
-    "id": "55",
+    "title": "Lady with a Bubble Gum",
+    "description": "Art",
+    "notes": "€29.00 from Jimi Cakmak",
+    "body": "Another to add to the collection of art for the home - a whimsical take.",
+    "type": ["all", "home", "want"],
+    "url": "/images/lady-bubblegum.png",
+    "alt": "A whimsical art piece by Jimi Cakmak"
+  },
+  {
     "title": "Gathering of Strangers",
     "description": "Book",
     "notes": "Purchased in Glasgow, Scotland",
@@ -20,17 +45,24 @@
     "alt": "Orange book titled Gathering of Strangers by Maria Balshaw"
   },
   {
-    "id": "54",
+    "title": "& Other Stories Trousers",
+    "description": "Trousers",
+    "body": "High waisted, tapered, black - a classic staple that I've grown to love.",
+    "notes": "Purchased in Glasgow, Scotland",
+    "type": ["all", "wardrobe"],
+    "url": "/images/and-other-stories-trousers.png",
+    "alt": "A pair of tapered black trousers from & Other Stories"
+  },
+  {
     "title": "Capitol Cuts",
     "description": "Vinyl",
     "notes": "Purchased in Glasgow, Scotland",
-    "body": "One of my newly discovered favourites, Black Pumas is one of the latest addition to the collection.",
+    "body": "One of my newly discovered favourites, Black Pumas is one of the latest addition to the vinyl collection.",
     "type": ["all", "home"],
     "url": "/images/capitol-cuts.png",
     "alt": "A red vinyl from Black Pumas"
   },
   {
-    "id": "53",
     "title": "Elliker Dayle Backpack",
     "description": "Bag",
     "notes": "Purchased in Glasgow, Scotland",
@@ -40,7 +72,6 @@
     "alt": "A waterproof, black roll top backpack from Elliker"
   },
   {
-    "id": "52",
     "title": "Twemco Cylinder Flip Clock",
     "description": "Clock",
     "notes": "£115.00 from Present & Correct",
@@ -50,7 +81,6 @@
     "alt": "A black, analog cylinder flip clock"
   },
   {
-    "id": "51",
     "title": "Kismas Linear Lamp 01",
     "description": "Lamp",
     "notes": "€139,00 from Kismas",
@@ -60,7 +90,15 @@
     "alt": "A dimmable glass lamp from Kismas Design Studio"
   },
   {
-    "id": "50",
+    "title": "Klekks No.11",
+    "description": "Throw",
+    "notes": "£103.00 from Klekks",
+    "body": "Great type, matches the Nessino lamp and seems extremely snuggly.",
+    "type": ["all", "home", "want"],
+    "url": "/images/klekks-11.png",
+    "alt": "Graphic 'Amore' red wool blanket from Klekks"
+  },
+  {
     "title": "Red Nessino Lamp",
     "description": "Lamp",
     "notes": "Purchased in Glasgow, Scotland",
@@ -70,7 +108,6 @@
     "alt": "Classic red Nessino lamp from Artemide"
   },
   {
-    "id": "49",
     "title": "Animal Logo",
     "description": "Book",
     "notes": "A gift from Glasgow, Scotland",
@@ -80,7 +117,6 @@
     "alt": "A book that talks about Apple's design during the golden age"
   },
   {
-    "id": "48",
     "title": "X - Cigarettes after Sex",
     "description": "Vinyl",
     "notes": "£24.99 from HMV",
@@ -90,17 +126,24 @@
     "alt": "X by Cigarettes after Sex 12 inch vinyl album"
   },
   {
-    "id": "47",
+    "title": "Hightide Penco Flat Pen Case",
+    "description": "Pencil case",
+    "notes": "£1600 from Goodhood",
+    "body": "Black and made of lightweight nylon, 21cm x 9cm x 1cm.",
+    "type": ["all", "work", "want"],
+    "url": "/images/penco.png",
+    "alt": "Black lightweight nylon pencil case by Penco"
+  },
+  {
     "title": "Animal Crossing: New Horizons",
     "description": "Lamp",
     "notes": "A gift from Glasgow, Scotland",
-    "body": "A 30th birthday gift, and now my favourite game that I've racked up over 120 hours on.",
+    "body": "A 30th birthday gift, and now my favourite game that I've racked up over 200 hours on.",
     "type": ["all", "home"],
     "url": "/images/acnh.png",
     "alt": "Animal Crossing game for the intendo Switch"
   },
   {
-    "id": "46",
     "title": "Nintendo Switch OLED",
     "description": "Gaming console",
     "notes": "Purchased in Hong Kong, Hong Kong",
@@ -110,7 +153,6 @@
     "alt": "A red and blue Nintendo Switch OLED gaming console"
   },
   {
-    "id": "45",
     "title": "Analog Today",
     "description": "Notepad",
     "notes": "£11.00 from Ugmonk",
@@ -120,7 +162,6 @@
     "alt": "Minimalist notepad with a list for today"
   },
   {
-    "id": "44",
     "title": "Filippa K Turtleneck",
     "description": "Sweater",
     "body": "The first camel addition to the all black wardrobe - there can never be too many turtlenecks in the wardrobe.",
@@ -130,7 +171,6 @@
     "alt": "A camel coloured wool turtleneck jumper"
   },
   {
-    "id": "43",
     "title": "Small Transparent Speaker",
     "description": "Speakers",
     "notes": "£450.00 from Transparent",
@@ -140,7 +180,6 @@
     "alt": "Transparent rectangular speaker with black accents"
   },
   {
-    "id": "42",
     "title": "Ricoh GR IIIx",
     "description": "Camera",
     "body": "It does its job well and I love the pocket factor, user modes and handy recipes.",
@@ -150,7 +189,6 @@
     "alt": "A pocketable Ricoh GR IIIx camera in black"
   },
   {
-    "id": "41",
     "title": "Mac Studio Display",
     "description": "Monitor",
     "body": "A huge fan of the 27 inch 5K retina screen, I can now zoom in 9000x and draw the ultimate pixel perfect rectangles in Figma.",
@@ -160,7 +198,6 @@
     "alt": "Large silver retina display monitor from Apple"
   },
   {
-    "id": "40",
     "title": "Anya Hindmarch Kit Kat",
     "description": "Bag charm",
     "body": "This was a surprise Christmas gift inspired by an inside joke. It is my emergency kit kat for moments when my blood sugar levels drop.",
@@ -170,7 +207,6 @@
     "alt": "A kit kat bar made in leather from Anya Hindmarch"
   },
   {
-    "id": "39",
     "title": "Annie Bing Diana Jacket",
     "description": "Jacket",
     "body": "I loved the menswear inspired fit with the double breasting closing and wool fabric.",
@@ -180,7 +216,6 @@
     "alt": "Black double faced wool jacket from COS"
   },
   {
-    "id": "38",
     "title": "Aesop Rozu",
     "description": "Eau de Parfum",
     "body": "Inspired by French modernist Charlotte Perriand, it is a fragrance of tender intensity. Floral, green and woody.",
@@ -190,7 +225,6 @@
     "alt": "An amber glass Aesop perfume bottle with a black cap"
   },
   {
-    "id": "37",
     "title": "Craighill Ripple (Carbon)",
     "description": "Bottle opener",
     "body": "Milled from 5/8 inch diameter stainless steel with a Black nitrocarburized finish, it features a classic churchkey-style that is both functional and stylish.",
@@ -200,7 +234,6 @@
     "alt": "A minimal steel bottle opener with rippled edges"
   },
   {
-    "id": "36",
     "title": "Acne Studios Fairview Face",
     "description": "Sweatshirt",
     "notes": "Purchased in Glasgow, Scotland",
@@ -210,7 +243,6 @@
     "alt": "Black sweatshirt with classic Acne studio face logo"
   },
   {
-    "id": "35",
     "title": "Loewe Anagram Belt",
     "description": "Leather belt",
     "body": "I have always loved Loewe, their subtle luxury and beautiful anagram logo.",
@@ -220,7 +252,6 @@
     "alt": "Black leather belt with a gold Loewe anagram logo"
   },
   {
-    "id": "34",
     "title": "Audo CPH JWDA Lamp",
     "description": "Lamp",
     "body": "Inspired by traditional oil lamps and crafted in glass, solid metal and a brass dimmer switch, the JWDA Portable has the freedom and flexibility to move anywhere you want.",
@@ -230,7 +261,6 @@
     "alt": "Minimal JWDA dimmable lamp from Audo Copenhagen"
   },
   {
-    "id": "33",
     "title": "BoConcept Velvet Leaf",
     "description": "Sculpture",
     "body": "Inspired by natural leaves, this decorative sculpture made of curved aluminum could be a great addition to the dining table. ",
@@ -240,7 +270,6 @@
     "alt": "A black leaf sculpture from BoConcept"
   },
   {
-    "id": "32",
     "title": "Ganni City Boot",
     "description": "Boots",
     "body": "Made from a blend of recycled rubber and elastic panels, it is the perfect winter boots.",
@@ -250,7 +279,15 @@
     "alt": "A pair of black heeled rubber boots from Ganni"
   },
   {
-    "id": "31",
+    "title": "A Collection of Canned Food Labels Made in Japan",
+    "description": "Book",
+    "body": "Exactly what it says on the tin.",
+    "notes": "Purchased in Glasgow, Scotland",
+    "type": ["all", "books"],
+    "url": "/images/canned-food.png",
+    "alt": "Pink pocket sized book on canned food labels made in Japan"
+  },
+  {
     "title": "Muuto Base Table",
     "description": "Table",
     "body": "A beautifully crafted black table top with rounded corners and matte black steel legs, it is both the dining table and daytime work desk.",
@@ -260,7 +297,6 @@
     "alt": "Black plywood tabletop with matte black steel legs"
   },
   {
-    "id": "30",
     "title": "HAY J77",
     "description": "Chair",
     "body": "Originally designed in the 1960s by Folke Pålsson, the J77 Chair has been reimagined by HAY.",
@@ -270,7 +306,6 @@
     "alt": "A black wooden chair from danish brand, HAY"
   },
   {
-    "id": "29",
     "title": "Blue Lucky Cat",
     "description": "Decorative object",
     "body": "Three friends walked into Illum and three lucky cats were purchased - blue, orange and green. And now, each cat sits somewhere, in each designer’s house.",
@@ -280,7 +315,6 @@
     "alt": "A blue lucky cat with a waving arm"
   },
   {
-    "id": "28",
     "title": "Bao",
     "description": "Book",
     "body": "I love food, clean design and physical books. Strictly for viewing pleasure, never attempted making a steamed bun.",
@@ -290,7 +324,6 @@
     "alt": "A blue lucky cat with a waving arm"
   },
   {
-    "id": "27",
     "title": "Hay Quilton",
     "description": "Sofa",
     "body": "Crafted by the London design duo Doshi Levein, the sofa is part of the flexible Quilton modular system created with FSC-certified wood from sustainable forests.",
@@ -300,7 +333,6 @@
     "alt": "Light grey quilted L shaped sofa by HAY"
   },
   {
-    "id": "26",
     "title": "Lululemon High Rise Cropped",
     "description": "Joggers",
     "body": "One of my favourite casual bottoms for everday errands, and the only pair of joggers that don't make me look like a Hobbit.",
@@ -310,7 +342,6 @@
     "alt": "Clear Byredo perfume bottle with a black rounded cap"
   },
   {
-    "id": "25",
     "title": "Balenciaga City Bag S",
     "description": "Bag",
     "body": "I finally found the bag in store, after originally discovering it over 10 years ago.",
@@ -320,7 +351,15 @@
     "alt": "A pocketable Ricoh GR IIIx camera in black"
   },
   {
-    "id": "24",
+    "title": "White",
+    "description": "Book",
+    "body": "White is not a book about colour but about exploring the essence of 'white' that is closed tied to Japanese aesthetics of simplicity and subtlety.",
+    "notes": "Purchased in Glasgow, Scotland",
+    "type": ["all", "books"],
+    "url": "/images/white.png",
+    "alt": "A book exploring the concept of white by Kenya Hara"
+  },
+  {
     "title": "Frame Le Original Cropped",
     "description": "Jeans",
     "body": "Embracing the freedom of a slim straight cut, my legs feel liberated from my old skin tight jeans.",
@@ -330,7 +369,6 @@
     "alt": "High waisted cropped, straight cut blue jeans"
   },
   {
-    "id": "23",
     "title": "Acne Studios Emmbar Face",
     "description": "T-shirt",
     "body": "I'm a massive sucker for Acne Studio's face logos on all of their basic tops. ",
@@ -340,7 +378,6 @@
     "alt": "Black Acne Studios short sleeved T-shirt"
   },
   {
-    "id": "22",
     "title": "APC Hide",
     "description": "Sneakers",
     "notes": "Purchased from Paris, France",
@@ -350,7 +387,6 @@
     "alt": "White APC sneakers in leather"
   },
   {
-    "id": "21",
     "title": "Creative Selection",
     "description": "Book",
     "notes": "Purchased in Glasgow, Scotland",
@@ -360,7 +396,6 @@
     "alt": "A book that talks design and minimalism by Kenya Hara"
   },
   {
-    "id": "20",
     "title": "Baggu Puffy Sleeve",
     "description": "Laptop cover",
     "body": "I love this because it's bright, fun, puffy and does the job of protecting my laptop in my bag.",
@@ -370,17 +405,6 @@
     "alt": "Orange puffy laptop sleeve with a banana print"
   },
   {
-    "id": "19",
-    "title": "High Waisted Tapered Trousers",
-    "description": "Trousers",
-    "body": "The first pair of tapered trousers that needed no alterations - perfect length and fit right away.",
-    "notes": "Purchased in Glasgow, Scotland",
-    "type": ["all", "wardrobe"],
-    "url": "/images/and-other-stories-trousers.png",
-    "alt": "A pair of tapered black trousers from & Other Stories"
-  },
-  {
-    "id": "18",
     "title": "No Idea is Final",
     "description": "Book",
     "notes": "Purchased in Glasgow, Scotland",
@@ -390,7 +414,6 @@
     "alt": "An orange book from Phaidon publishing"
   },
   {
-    "id": "17",
     "title": "Rains Mini Roll Top",
     "description": "Bag",
     "body": "I needed a waterproof bag for the Scottish weather and the muted sand colour caught my eye.",
@@ -400,7 +423,6 @@
     "alt": "A sand coloured waterproof roll top backpack"
   },
   {
-    "id": "16",
     "title": "Byredo Black Saffron",
     "description": "Eau de Parfum",
     "body": "Woody with a hint of spice. This was my first bottle of expensive perfume after discovering Scandinavian design. ",
@@ -410,7 +432,6 @@
     "alt": "Clear Byredo perfume bottle with a black rounded cap"
   },
   {
-    "id": "15",
     "title": "Designing Design",
     "description": "Book",
     "notes": "Purchased in Berlin, Germany",
@@ -420,7 +441,6 @@
     "alt": "A book that talks design and minimalism by Kenya Hara"
   },
   {
-    "id": "14",
     "title": "Nothing 1",
     "description": "Earphones",
     "notes": "Purchased in Glasgow, Scotland",
@@ -430,7 +450,6 @@
     "alt": "White earphones in a transparent case from Nothing"
   },
   {
-    "id": "13",
     "title": "Normann Copenhagen Porta Lamp",
     "description": "Lamp",
     "body": "Dimmable, portable and sleek - that was search criteria for a pair of new bedside lamps.",
@@ -440,7 +459,6 @@
     "alt": "A black portable lamp from Normann Copenhagen"
   },
   {
-    "id": "12",
     "title": "Altura Step Stool",
     "description": "Stool",
     "notes": "Purchased from London, England",
@@ -450,7 +468,6 @@
     "alt": "Black asymmetric step stool that doubles as a side table"
   },
   {
-    "id": "11",
     "title": "Stax River Hamburger",
     "description": "Coasters",
     "notes": "Purchased in Glasgow, Scotland",
@@ -460,7 +477,6 @@
     "alt": "A set of wooden coasters that form a hamburger"
   },
   {
-    "id": "10",
     "title": "Alessi Plisse",
     "description": "Kettle",
     "notes": "Purchased in Glasgow, Scotland",
@@ -470,7 +486,6 @@
     "alt": "Matt black Alessi Plisse kettle"
   },
   {
-    "id": "09",
     "title": "Small Pleasures",
     "description": "Book",
     "notes": "Purchased in Berlin, Germany",
@@ -480,7 +495,6 @@
     "alt": "Small Pleasures book by The School of Life"
   },
   {
-    "id": "08",
     "title": "TypoLyrics: The Sound of Fonts",
     "description": "Book",
     "notes": "A gift from Berlin, Germany",
@@ -490,7 +504,6 @@
     "alt": "Pink book, Typo Lyrics by Slanted Publishers"
   },
   {
-    "id": "07",
     "title": "DOIY Bento",
     "description": "Lunch box",
     "notes": "A gift from Glasgow, Scotland",
@@ -500,7 +513,6 @@
     "alt": "A two tiered lunch box thar looks like a salmon sashimi"
   },
   {
-    "id": "06",
     "title": "Berlin Typo Posters",
     "description": "Book",
     "body": "A book filled with Berlin typo posters, interviews and texts from my favourite, Slanted Publishers.",
@@ -510,7 +522,15 @@
     "alt": "Berlin Typoposters by K.H. Drescher"
   },
   {
-    "id": "05",
+    "title": "Glyph",
+    "description": "Book",
+    "notes": "Purchased in Berlin, Germany",
+    "body": "A nice, pocket sized blue book showcasing the typographic explorations of symbols. ",
+    "type": ["all", "books"],
+    "url": "/images/glyph.png",
+    "alt": "Blue Glyph book by Anna Davies"
+  },
+  {
     "title": "IKEA Frekvens",
     "description": "Light and speaker",
     "notes": "A gift from Berlin, Germany",
@@ -520,7 +540,15 @@
     "alt": "An IKEA square, black speaker that also doubles as a lamp"
   },
   {
-    "id": "04",
+    "title": "Slanted: Tokyo",
+    "description": "Magazine",
+    "body": "My first typography magazine - a bi-annual publication with a survey of typography, graphic design, illustration and photography.",
+    "notes": "Purchased in Berlin, Germany",
+    "type": ["all", "books"],
+    "url": "/images/slanted-Tokyo.png",
+    "alt": "Pink Slanted Tokyo magazine by Slanted Publishers"
+  },
+  {
     "title": "Birkenstock Gizeh",
     "description": "Slippers",
     "body": "The better looking, well supported and well worn flip flops for my duck feet",
@@ -530,7 +558,6 @@
     "alt": "Stone coloured leather Birkenstock sandals"
   },
   {
-    "id": "03",
     "title": "Horizn Studio Gion",
     "description": "Crossbody bag",
     "body": "Simple, water-repellent, black and it fits my phone, wallet and keys.",
@@ -540,7 +567,6 @@
     "alt": "A black waterproof bum bag from Horizn Studio"
   },
   {
-    "id": "02",
     "title": "Totem (2019)",
     "description": "Book",
     "body": "Totem - a limited edition souvenir from the design conference, OFFF in Barcelona, 2019.",
@@ -550,7 +576,6 @@
     "alt": "A black limited edition book from the OFFF festival in Barcelona"
   },
   {
-    "id": "01",
     "title": "Keychron K3",
     "description": "Wireless keyboard",
     "notes": "£79.00 from Keychron",
