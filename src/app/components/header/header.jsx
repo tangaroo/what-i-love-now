@@ -1,7 +1,19 @@
 import { useState } from "react";
+import data from "../../../app/data.json";
 
 export default function Header({ selected, setSelected }) {
   const [isOpen, setIsOpen] = useState(false);
+
+  const total = data.reduce((acc, item) => {
+    item.type.forEach(type => {
+      if (acc[type]) {
+        acc[type]++;
+      } else {
+        (acc[type]) = 1
+      }
+    });
+    return acc;
+  }, {})
 
   const logo = (
     <svg
@@ -39,18 +51,18 @@ export default function Header({ selected, setSelected }) {
                 toggleMenu();
               }}
             >
-              All
+              All <span className="px-2 py-0.5 ml-2 rounded-lg bg-slate-100 text-xs">{total.all || 0}</span>
             </button>
             <button
               className={`${
-                selected === "wardrobe" ? "text-slate-900" : "text-slate-400"
+                selected === "books" ? "text-slate-900" : "text-slate-400"
               } block w-full text-left px-4 py-2 text-sm hover:bg-slate-100 hover:text-slate-800`}
               onClick={() => {
                 setSelected("books");
                 toggleMenu();
               }}
             >
-              Library
+              Library <span className="px-2 py-0.5 ml-2 rounded-lg bg-slate-100 text-xs">{total.books || 0}</span>
             </button>
             <button
               className={`${
@@ -61,7 +73,7 @@ export default function Header({ selected, setSelected }) {
                 toggleMenu();
               }}
             >
-              Wardrobe
+              Wardrobe <span className="px-2 py-0.5 ml-2 rounded-lg bg-slate-100 text-xs">{total.wardrobe || 0}</span>
             </button>
             <button
               className={`${
@@ -72,7 +84,7 @@ export default function Header({ selected, setSelected }) {
                 toggleMenu();
               }}
             >
-              Work
+              Work <span className="px-2 py-0.5 ml-2 rounded-lg bg-slate-100 text-xs">{total.work || 0}</span>
             </button>
             <button
               className={`${
@@ -83,7 +95,7 @@ export default function Header({ selected, setSelected }) {
                 toggleMenu();
               }}
             >
-              Home
+              Home <span className="px-2 py-0.5 ml-2 rounded-lg bg-slate-100 text-xs">{total.home || 0}</span>
             </button>
           </div>
         )}

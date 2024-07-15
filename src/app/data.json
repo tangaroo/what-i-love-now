@@ -360,13 +360,13 @@
     "alt": "A book exploring the concept of white by Kenya Hara"
   },
   {
-    "title": "Frame Le Original Cropped",
+    "title": "Levi's 80s Mom Jeans",
     "description": "Jeans",
-    "body": "Embracing the freedom of a slim straight cut, my legs feel liberated from my old skin tight jeans.",
+    "body": "Embracing the freedom of a tapered cut, my legs feel liberated from my old skin tight jeans.",
     "notes": "Purchased in Glasgow, Scotland",
     "type": ["all", "wardrobe"],
-    "url": "/images/frame-original.png",
-    "alt": "High waisted cropped, straight cut blue jeans"
+    "url": "/images/levis-80s.png",
+    "alt": "High waisted cropped, tapered black jeans from Levi's"
   },
   {
     "title": "Acne Studios Emmbar Face",
@@ -409,7 +409,7 @@
     "description": "Book",
     "notes": "Purchased in Glasgow, Scotland",
     "body": "A coffee table book for the living room - for designers, 'no idea is final' is so true for everything.",
-    "type": ["all", "home"],
+    "type": ["all", "books"],
     "url": "/images/no-idea-is-final.png",
     "alt": "An orange book from Phaidon publishing"
   },
@@ -545,7 +545,7 @@
     "body": "My first typography magazine - a bi-annual publication with a survey of typography, graphic design, illustration and photography.",
     "notes": "Purchased in Berlin, Germany",
     "type": ["all", "books"],
-    "url": "/images/slanted-Tokyo.png",
+    "url": "/images/slanted-tokyo.png",
     "alt": "Pink Slanted Tokyo magazine by Slanted Publishers"
   },
   {
@@ -576,12 +576,12 @@
     "alt": "A black limited edition book from the OFFF festival in Barcelona"
   },
   {
-    "title": "Keychron K3",
+    "title": "Keychron Q1 QMK (Custom)",
     "description": "Wireless keyboard",
-    "notes": "£79.00 from Keychron",
-    "body": "An ultra slim wireless keyboard with an aluminium body - it weighs about 483g and measures 306mm x 116mm.",
+    "notes": "£167.00 from Keychron",
+    "body": "Fully assembled knob, carbon black A - it weighs about 483g and measures 306mm x 116mm.",
     "type": ["all", "work", "want"],
-    "url": "/images/k3.png",
+    "url": "/images/keychron.png",
     "alt": "A wireless mechnical keyboard from Keychron"
   }
 ]
