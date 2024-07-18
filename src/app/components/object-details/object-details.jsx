@@ -3,6 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import Footer from "../footer/footer";
 
+
+//This is for dynamic routes. For modal content, refer to content.
+
 export const metadata = {
   title: "What I love now",
   description: "A collection carefully curated by Cassandra Tang",

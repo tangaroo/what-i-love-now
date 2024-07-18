@@ -9,6 +9,7 @@ const Content = ({ selected }) => {
   const [imageData, setImageData] = useState([]);
 
   useEffect(() => {
+    // Update data with IDs
     const updatedData = data.map((item, index) => ({
       ...item,
       id: data.length - index, // Assign IDs starting from highest to lowest
@@ -36,12 +37,10 @@ const Content = ({ selected }) => {
       {listOfImages.map((data) => (
         <div
           key={`${data.id}-${data.title}`}
-          className="block my-12 sm:my-6 relative"
+          className="block my-12 sm:my-6 relative cursor-pointer"
+          onClick={() => openModal(data)}
         >
-          <div
-            onClick={() => openModal(data)}
-            className="relative w-full object-contain aspect-square bg-slate-100 transition-all duration-150 hover:bg-[#EDF1F7] cursor-pointer"
-          >
+          <div className="relative w-full object-contain aspect-square bg-slate-100 transition-all duration-150 hover:bg-[#EDF1F7]">
             <Image
               className="object-contain w-full h-full transition-all duration-150 hover:translate-y-1 p-8"
               fill={true}
@@ -91,7 +90,20 @@ const Content = ({ selected }) => {
                 {selectedImage.description}
               </h3>
               <p className="text-sm text-slate-800 mb-4">{selectedImage.body}</p>
-              <p className="text-sm text-slate-400 mb-2">{selectedImage.notes}</p>
+              <p className="text-sm text-slate-400 mb-2">
+                {selectedImage.storeLink ? (
+                  <a
+                    href={selectedImage.storeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    {selectedImage.notes}
+                  </a>
+                ) : (
+                  selectedImage.notes
+                )}
+              </p>
             </div>
           </div>
         </Modal>
