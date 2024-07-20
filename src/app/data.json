@@ -391,7 +391,7 @@
     "alt": "Black Acne Studios short sleeved T-shirt"
   },
   {
-    "title": "APC Hide",
+    "title": "A.P.C Hide",
     "description": "Sneakers",
     "notes": "Purchased from Paris, France",
     "body": "A.P.C are one of my favourite brands for its minimalist, laid-back attitude.",
@@ -443,6 +443,15 @@
     "type": ["all", "wardrobe"],
     "url": "/images/byredo-saffron.png",
     "alt": "Clear Byredo perfume bottle with a black rounded cap"
+  },
+  {
+    "title": "A.P.C Angele Rue Madame",
+    "description": "Scarf",
+    "notes": "Purchased from Paris, France",
+    "body": "Saw the big type on the scarf in the window and knew I needed it for the winter wardrobe.",
+    "type": ["all", "wardrobe"],
+    "url": "/images/apc-scarf.png",
+    "alt": "Grey wool A.P.C scarf"
   },
   {
     "title": "Designing Design",

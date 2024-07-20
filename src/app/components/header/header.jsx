@@ -51,7 +51,7 @@ export default function Header({ selected, setSelected }) {
                 toggleMenu();
               }}
             >
-              All <span className="px-2 py-0.5 ml-2 rounded-lg bg-slate-100 text-xs">{total.all || 0}</span>
+               <div className="flex justify-between"><p>All</p> {total.all || 0}</div>
             </button>
             <button
               className={`${
@@ -62,7 +62,7 @@ export default function Header({ selected, setSelected }) {
                 toggleMenu();
               }}
             >
-              Library <span className="px-2 py-0.5 ml-2 rounded-lg bg-slate-100 text-xs">{total.books || 0}</span>
+               <div className="flex justify-between"><p>Library</p> {total.books || 0}</div>
             </button>
             <button
               className={`${
@@ -73,7 +73,7 @@ export default function Header({ selected, setSelected }) {
                 toggleMenu();
               }}
             >
-              Wardrobe <span className="px-2 py-0.5 ml-2 rounded-lg bg-slate-100 text-xs">{total.wardrobe || 0}</span>
+               <div className="flex justify-between"><p>Wardrobe</p> {total.wardrobe || 0}</div>
             </button>
             <button
               className={`${
@@ -84,7 +84,7 @@ export default function Header({ selected, setSelected }) {
                 toggleMenu();
               }}
             >
-              Work <span className="px-2 py-0.5 ml-2 rounded-lg bg-slate-100 text-xs">{total.work || 0}</span>
+               <div className="flex justify-between"><p>Work</p> {total.work || 0}</div>
             </button>
             <button
               className={`${
@@ -95,7 +95,7 @@ export default function Header({ selected, setSelected }) {
                 toggleMenu();
               }}
             >
-              Home <span className="px-2 py-0.5 ml-2 rounded-lg bg-slate-100 text-xs">{total.home || 0}</span>
+              <div className="flex justify-between"><p>Home</p> {total.home || 0}</div>
             </button>
           </div>
         )}
