@@ -9,7 +9,6 @@ const Content = ({ selected }) => {
   const [imageData, setImageData] = useState([]);
 
   useEffect(() => {
-    // Update data with IDs
     const updatedData = data.map((item, index) => ({
       ...item,
       id: data.length - index, // Assign IDs starting from highest to lowest

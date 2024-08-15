@@ -2,12 +2,11 @@
   {
     "title": "Cooking with Scorsese: The Collection",
     "description": "Book",
-    "notes": "£28.00 from Hato Store",
+    "notes": "Purhcased in Glasgow, Scotland",
     "body": "Big fan of how it's designed and the concept of bringing cooking and classic films together.",
-    "type": ["all", "books", "want"],
+    "type": ["all", "books"],
     "url": "/images/cooking-with-scorsese.png",
-    "alt": "A slim black publication, 'Cooking with Scorsese'.",
-    "storeLink": "https://hato.store/collections/all/products/cooking-with-scorsese-the-collection"
+    "alt": "A slim black publication, 'Cooking with Scorsese'."
   },
   {
     "title": "Donni Rib T-Shirt",
@@ -31,12 +30,11 @@
   {
     "title": "Lady with a Bubble Gum",
     "description": "Art",
-    "notes": "€29.00 from Jimi Cakmak",
-    "body": "Another to add to the collection of art for the home - a whimsical take.",
-    "type": ["all", "home", "want"],
+    "notes": "Purchased from Ausburg, Germany",
+    "body": "Another added to the collection of art for the home - a whimsical take.",
+    "type": ["all", "home"],
     "url": "/images/lady-bubblegum.png",
-    "alt": "A whimsical art piece by Jimi Cakmak",
-    "storeLink": "https://www.jimicakmak.com/product-page/lady-with-a-bubble-gum?lang=en"
+    "alt": "A whimsical art piece by Jimi Cakmak"
   },
   {
     "title": "Gathering of Strangers",
@@ -123,19 +121,9 @@
     "alt": "A book that talks about Apple's design during the golden age"
   },
   {
-    "title": "X - Cigarettes after Sex",
-    "description": "Vinyl",
-    "notes": "£24.99 from HMV",
-    "body": "Limited clear vinyl, will be released by Partisan Records on 12 July 2024",
-    "type": ["all", "home", "want"],
-    "url": "/images/x.png",
-    "alt": "X by Cigarettes after Sex 12 inch vinyl album",
-    "storeLink": "https://hmv.com/store/music/vinyl/cigarettes-after-sex"
-  },
-  {
     "title": "Hightide Penco Flat Pen Case",
     "description": "Pencil case",
-    "notes": "£1600 from Goodhood",
+    "notes": "£16.00 from Goodhood",
     "body": "Black and made of lightweight nylon, 21cm x 9cm x 1cm.",
     "type": ["all", "work", "want"],
     "url": "/images/penco.png",
@@ -425,15 +413,6 @@
     "type": ["all", "books"],
     "url": "/images/no-idea-is-final.png",
     "alt": "An orange book from Phaidon publishing"
-  },
-  {
-    "title": "Rains Mini Roll Top",
-    "description": "Bag",
-    "body": "I needed a waterproof bag for the Scottish weather and the muted sand colour caught my eye.",
-    "notes": "Purchased in Glasgow, Scotland",
-    "type": ["all", "wardrobe"],
-    "url": "/images/rain-backpack.png",
-    "alt": "A sand coloured waterproof roll top backpack"
   },
   {
     "title": "Byredo Black Saffron",
