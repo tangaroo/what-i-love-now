@@ -1,5 +1,14 @@
 [
   {
+    "title": "Buried Here by Andrew Carr",
+    "description": "Art",
+    "notes": "Purchased from Manchester, England",
+    "body": "A first original piece from Andrew Carr for the home. Oil on wood, 30x40cm.",
+    "type": ["all", "home"],
+    "url": "/images/andrew-carr.png",
+    "alt": "Oil on wood by Andrew Carr"
+    },
+  {
     "title": "Cooking with Scorsese: The Collection",
     "description": "Book",
     "notes": "Purhcased in Glasgow, Scotland",
@@ -16,16 +25,6 @@
     "type": ["all", "wardrobe"],
     "url": "/images/donni-tee.png",
     "alt": "A simple black ribbed T-shirt by Donni"
-  },
-  {
-    "title": "The Forfeit by Dave Pollot",
-    "description": "Art",
-    "notes": "$65.00 from Dave Pollot",
-    "body": "One of the art pieces for the home - altered thrift art paintings by New York artist, Dave Pollot.",
-    "type": ["all", "home", "want"],
-    "url": "/images/dave-pollot.png",
-    "alt": "An altered thirft art painting by Dave Pollot",
-    "storeLink": "https://www.davepollot.com/product-page/the-forfeit-print-by-dave-pollot"
   },
   {
     "title": "Lady with a Bubble Gum",
