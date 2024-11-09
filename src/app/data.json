@@ -1,5 +1,42 @@
 [
   {
+    "title": "Mogu-Kagu Coaster",
+    "description": "Coaster",
+    "notes": "£44.00 from Ode to Things",
+    "body": "Designed by Mitsugu Morita and crafted in Japan, this walnut coaster with A curved corner lends a touch of graceful whimsy.",
+    "type": ["all", "home","want"],
+    "url": "/images/mogu-coaster.png",
+    "alt": "A minimal walnut wood coaster with a curved corner",
+    "storeLink": "https://www.odetothings.com/products/mogu-kagu-coaster?variant=5444080336927"
+  },
+  {
+    "title": "MOHEIM Stoneware Tumbler",
+    "description": "Cup",
+    "body": "Designed by Shigeichiro Takeuchi and handmade in Vietnam. Grey stoneware.",
+    "notes": "Purchased in Glasgow, Scotland",
+    "type": ["all", "home"],
+    "url": "/images/moheim-tumbler.png",
+    "alt": "Sand stoneware tumbler from MOHEIM"
+  },
+  {
+    "title": "Toteme Regular Fit Jeans",
+    "description": "Jeans",
+    "body": "Embracing the freedom of a tapered cut, my legs are free from my old skin tight jeans.",
+    "notes": "Purchased in Glasgow, Scotland",
+    "type": ["all", "wardrobe"],
+    "url": "/images/toteme-jeans.png",
+    "alt": "High waisted cropped, tapered dark wash jeans from Toteme"
+  },
+  {
+    "title": "Pandemic Objects",
+    "description": "Book",
+    "body": "An editorial project from the V&A reflecting on objects with new meanings during the COVID-19 pandemic.",
+    "notes": "Purchased in Glasgow, Scotland",
+    "type": ["all", "books"],
+    "url": "/images/pandemic-objects.png",
+    "alt": "Pandemic Objects from the V&A"
+  },
+  {
     "title": "Buried Here by Andrew Carr",
     "description": "Art",
     "notes": "Purchased from Manchester, England",
@@ -25,15 +62,6 @@
     "type": ["all", "wardrobe"],
     "url": "/images/donni-tee.png",
     "alt": "A simple black ribbed T-shirt by Donni"
-  },
-  {
-    "title": "Lady with a Bubble Gum",
-    "description": "Art",
-    "notes": "Purchased from Ausburg, Germany",
-    "body": "Another added to the collection of art for the home - a whimsical take.",
-    "type": ["all", "home"],
-    "url": "/images/lady-bubblegum.png",
-    "alt": "A whimsical art piece by Jimi Cakmak"
   },
   {
     "title": "Gathering of Strangers",
@@ -333,15 +361,6 @@
     "storeLink": "https://www.insidestoreldn.com/products/quilton-modular-sofa-options"
   },
   {
-    "title": "Lululemon High Rise Cropped",
-    "description": "Joggers",
-    "body": "One of my favourite casual bottoms for everday errands, and the only pair of joggers that don't make me look like a Hobbit.",
-    "notes": "Purchased in Glasgow, Scotland",
-    "type": ["all", "wardrobe"],
-    "url": "/images/lululemon-joggers.png",
-    "alt": "Clear Byredo perfume bottle with a black rounded cap"
-  },
-  {
     "title": "Balenciaga City Bag S",
     "description": "Bag",
     "body": "I finally found the bag in store, after originally discovering it over 10 years ago.",
@@ -358,15 +377,6 @@
     "type": ["all", "books"],
     "url": "/images/white.png",
     "alt": "A book exploring the concept of white by Kenya Hara"
-  },
-  {
-    "title": "Levi's 80s Mom Jeans",
-    "description": "Jeans",
-    "body": "Embracing the freedom of a tapered cut, my legs feel liberated from my old skin tight jeans.",
-    "notes": "Purchased in Glasgow, Scotland",
-    "type": ["all", "wardrobe"],
-    "url": "/images/levis-80s.png",
-    "alt": "High waisted cropped, tapered black jeans from Levi's"
   },
   {
     "title": "Acne Studios Emmbar Face",
@@ -513,15 +523,6 @@
     "alt": "A two tiered lunch box thar looks like a salmon sashimi"
   },
   {
-    "title": "Berlin Typo Posters",
-    "description": "Book",
-    "body": "A book filled with Berlin typo posters, interviews and texts from my favourite, Slanted Publishers.",
-    "notes": "Purchased in Berlin, Germany",
-    "type": ["all", "books"],
-    "url": "/images/berlin-typoposters.png",
-    "alt": "Berlin Typoposters by K.H. Drescher"
-  },
-  {
     "title": "Glyph",
     "description": "Book",
     "notes": "Purchased in Berlin, Germany",
@@ -583,6 +584,6 @@
     "type": ["all", "work", "want"],
     "url": "/images/keychron.png",
     "alt": "A wireless mechnical keyboard from Keychron",
-    "storeLink": "https://google.com"
+    "storeLink": "https://www.keychron.uk/products/keychron-q1-qmk-custom-mechanical-keyboard-iso-layout-collection"
   }
 ]
