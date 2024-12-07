@@ -1,22 +1,31 @@
 [
   {
-    "title": "Mogu-Kagu Coaster",
-    "description": "Coaster",
-    "notes": "£44.00 from Ode to Things",
-    "body": "Designed by Mitsugu Morita and crafted in Japan, this walnut coaster with A curved corner lends a touch of graceful whimsy.",
-    "type": ["all", "home","want"],
-    "url": "/images/mogu-coaster.png",
-    "alt": "A minimal walnut wood coaster with a curved corner",
-    "storeLink": "https://www.odetothings.com/products/mogu-kagu-coaster?variant=5444080336927"
-  },
+    "title": "Crisp Bag Clip",
+    "description": "Clip",
+    "notes": "£10.00 from Pophams Home",
+    "body": "A fun kitchen essential for keeping all the half opened crisp bags secured.",
+    "type": ["all", "home", "want"],
+    "url": "/images/chip-clip.png",
+    "alt": "A yellow crisp shaped clip",
+    "storeLink": "https://www.pophamshome.com/collections/kitchen/products/crisp-bag-clip"
+    },
   {
-    "title": "MOHEIM Stoneware Tumbler",
-    "description": "Cup",
-    "body": "Designed by Shigeichiro Takeuchi and handmade in Vietnam. Grey stoneware.",
+    "title": "Max Mara Teddy Mittens",
+    "description": "Gloves",
+    "notes": "Purchased in Edinburgh",
+    "body": "Functional and fun - they will likely be more of an accessory around my neck than worn on my hands.",
+    "type": ["all", "wardrobe"],
+    "url": "/images/maxmara-gloves.png",
+    "alt": "A pair of black teddy mittens with a removable cord"
+    },
+  {
+    "title": "MOHEIM Stoneware Mug",
+    "description": "Mug",
+    "body": "Designed by Shigeichiro Takeuchi in Fukui, Japan. Handmade in Vietnam. Grey stoneware.",
     "notes": "Purchased in Glasgow, Scotland",
     "type": ["all", "home"],
-    "url": "/images/moheim-tumbler.png",
-    "alt": "Sand stoneware tumbler from MOHEIM"
+    "url": "/images/moheim-mug.png",
+    "alt": "Sand stoneware mug from MOHEIM"
   },
   {
     "title": "Toteme Regular Fit Jeans",
@@ -36,6 +45,15 @@
     "url": "/images/pandemic-objects.png",
     "alt": "Pandemic Objects from the V&A"
   },
+  {
+    "title": "Solvem Probler",
+    "description": "Cap",
+    "notes": "Purchased from USA",
+    "body": "If you get it, you get it. It sounds silly but also so perfect for a working product designer.",
+    "type": ["all", "wardrobe"],
+    "url": "/images/solvem-probler.png",
+    "alt": "A navy blue hat with white embroided text"
+    },
   {
     "title": "Buried Here by Andrew Carr",
     "description": "Art",
