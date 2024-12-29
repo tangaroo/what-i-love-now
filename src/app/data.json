@@ -1,13 +1,22 @@
 [
   {
-    "title": "Crisp Bag Clip",
-    "description": "Clip",
-    "notes": "£10.00 from Pophams Home",
-    "body": "A fun kitchen essential for keeping all the half opened crisp bags secured.",
+    "title": "Black clay teapot",
+    "description": "Teapot",
+    "notes": "£82.00 from Nordic Nest",
+    "body": "Sand Secrets teapot by Design House Stockholm is made of high-fired stoneware with a tea strainer.",
     "type": ["all", "home", "want"],
-    "url": "/images/chip-clip.png",
-    "alt": "A yellow crisp shaped clip",
-    "storeLink": "https://www.pophamshome.com/collections/kitchen/products/crisp-bag-clip"
+    "url": "/images/teapot.png",
+    "alt": "Black clay teapot from Swedish Design House Stockholm",
+    "storeLink": "https://www.nordicnest.com/brands/design-house-stockholm/sand-teapot-65-cl/?variantId=512351-01"
+    },
+    {
+      "title": "Ami de Coeur Sweater",
+      "description": "Sweater",
+      "body": "Felted merino wool with inside out seams - extremely warm and snug.",
+      "notes": "Purchased from Paris, France",
+      "type": ["all", "wardrobe"],
+      "url": "/images/ami-jumper.png",
+      "alt": "A black wool turtleneck jumper from Ami"
     },
   {
     "title": "Max Mara Teddy Mittens",
@@ -176,15 +185,6 @@
     "storeLink": "https://goodhoodstore.com/products/hightide-penco-flat-pen-case-black"
   },
   {
-    "title": "Animal Crossing: New Horizons",
-    "description": "Lamp",
-    "notes": "A gift from Glasgow, Scotland",
-    "body": "A 30th birthday gift, and now my favourite game that I've racked up over 200 hours on.",
-    "type": ["all", "home"],
-    "url": "/images/acnh.png",
-    "alt": "Animal Crossing game for the intendo Switch"
-  },
-  {
     "title": "Nintendo Switch OLED",
     "description": "Gaming console",
     "notes": "Purchased in Hong Kong, Hong Kong",
@@ -202,15 +202,6 @@
     "url": "/images/analog-today.png",
     "alt": "Minimalist notepad with a list for today",
     "storeLink": "https://ugmonk.com/en-gb/products/analog-today-cards-1-pack?variant=42879313412246"
-  },
-  {
-    "title": "Filippa K Turtleneck",
-    "description": "Sweater",
-    "body": "The first camel addition to the all black wardrobe - there can never be too many turtlenecks in the wardrobe.",
-    "notes": "Purchased in Copenhagen, Denmark",
-    "type": ["all", "wardrobe"],
-    "url": "/images/filippa-k-jumper.png",
-    "alt": "A camel coloured wool turtleneck jumper"
   },
   {
     "title": "Small Transparent Speaker",
@@ -315,13 +306,13 @@
     "storeLink": "https://www.boconcept.com/en-gb/p/velvet-leaf/104_11033640/"
   },
   {
-    "title": "Ganni City Boot",
+    "title": "Chloé Betty Boot",
     "description": "Boots",
-    "body": "Made from a blend of recycled rubber and elastic panels, it is the perfect winter boots.",
+    "body": "Made from sleek, black rubber, it is the perfect winter boots on the cold and wet days.",
     "notes": "Purchased in Glasgow, Scotland",
     "type": ["all", "wardrobe"],
-    "url": "/images/ganni-boot.png",
-    "alt": "A pair of black heeled rubber boots from Ganni"
+    "url": "/images/chloe-boots.png",
+    "alt": "A pair of black rain boots with shearling from Chloé"
   },
   {
     "title": "A Collection of Canned Food Labels Made in Japan",
