@@ -10,6 +10,15 @@
     "storeLink": "https://www.nordicnest.com/brands/design-house-stockholm/sand-teapot-65-cl/?variantId=512351-01"
     },
     {
+      "title": "Max Mara Resina Coat",
+      "description": "Coat",
+      "body": "A classic winter coat made out of 100% virgin wool. I love the dark navy and oversized silhouette.",
+      "notes": "Purchased from Gattatico, Italy",
+      "type": ["all", "wardrobe"],
+      "url": "/images/resina.png",
+      "alt": "Navy double breasted Resina coat from Max Mara"
+    },
+    {
       "title": "Ami de Coeur Sweater",
       "description": "Sweater",
       "body": "Felted merino wool with inside out seams - extremely warm and snug.",
@@ -239,15 +248,6 @@
     "type": ["all", "wardrobe"],
     "url": "/images/kitkat.png",
     "alt": "A kit kat bar made in leather from Anya Hindmarch"
-  },
-  {
-    "title": "Annie Bing Diana Jacket",
-    "description": "Jacket",
-    "body": "I loved the menswear inspired fit with the double breasting closing and wool fabric.",
-    "notes": "Purchased in Glasgow, Scotland",
-    "type": ["all", "wardrobe"],
-    "url": "/images/annie-bing.png",
-    "alt": "Black double faced wool jacket from COS"
   },
   {
     "title": "Aesop Rozu",
