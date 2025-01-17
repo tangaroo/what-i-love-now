@@ -1,9 +1,19 @@
 [
   {
+    "title": "Katto Garlic Crusher",
+    "description": "Kitchenware",
+    "notes": "£45.00 from Katto",
+    "body": "Stainless steel, solid walnut and brass, handmade in Sheffield.",
+    "type": ["all", "home", "want"],
+    "url": "/images/katto.png",
+    "alt": "Sleek stainless steel, brass and walnut garlic crusher",
+    "storeLink": "https://katto.shop/products/garlic-crusher"
+    },
+  {
     "title": "Black clay teapot",
     "description": "Teapot",
     "notes": "£82.00 from Nordic Nest",
-    "body": "Sand Secrets teapot by Design House Stockholm is made of high-fired stoneware with a tea strainer.",
+    "body": "A teapot by Design House Stockholm made of high-fired stoneware with a tea strainer.",
     "type": ["all", "home", "want"],
     "url": "/images/teapot.png",
     "alt": "Black clay teapot from Swedish Design House Stockholm",
@@ -28,15 +38,6 @@
       "alt": "A black wool turtleneck jumper from Ami"
     },
   {
-    "title": "Max Mara Teddy Mittens",
-    "description": "Gloves",
-    "notes": "Purchased in Edinburgh",
-    "body": "Functional and fun - they will likely be more of an accessory around my neck than worn on my hands.",
-    "type": ["all", "wardrobe"],
-    "url": "/images/maxmara-gloves.png",
-    "alt": "A pair of black teddy mittens with a removable cord"
-    },
-  {
     "title": "MOHEIM Stoneware Mug",
     "description": "Mug",
     "body": "Designed by Shigeichiro Takeuchi in Fukui, Japan. Handmade in Vietnam. Grey stoneware.",
@@ -53,6 +54,15 @@
     "type": ["all", "wardrobe"],
     "url": "/images/toteme-jeans.png",
     "alt": "High waisted cropped, tapered dark wash jeans from Toteme"
+  },
+  {
+    "title": "TAKT Sling Side Table",
+    "description": "Side Table",
+    "notes": "Purchased from Copenhagen, Denmark",
+    "body": "A blend of rectangular and circular forms made out of solid oak, it is exactly what we needed for a de-cluttered living space.",
+    "type": ["all", "home"],
+    "url": "/images/takt.png",
+    "alt": "Black oak side table from TAKT"
   },
   {
     "title": "Pandemic Objects",
@@ -107,15 +117,6 @@
     "type": ["all", "books"],
     "url": "/images/gathering-of-strangers.png",
     "alt": "Orange book titled Gathering of Strangers by Maria Balshaw"
-  },
-  {
-    "title": "& Other Stories Trousers",
-    "description": "Trousers",
-    "body": "High waisted, tapered, black - a classic staple that I've grown to love.",
-    "notes": "Purchased in Glasgow, Scotland",
-    "type": ["all", "wardrobe"],
-    "url": "/images/and-other-stories-trousers.png",
-    "alt": "A pair of tapered black trousers from & Other Stories"
   },
   {
     "title": "Capitol Cuts",
