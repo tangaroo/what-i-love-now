@@ -1,4 +1,51 @@
 [
+    {
+    "title": "Melonpan Bread Lamp",
+    "description": "Lamp",
+    "notes": "£99.00 from Yukiko Morita",
+    "body": "A battery powered LED Melonpan bread lamp made out of bread flour, cake flour, sugar, butter, salt, yeast and LED lights.",
+    "type": ["all", "home", "want"],
+    "url": "/images/melon-lamp.png",
+    "alt": "A Melonpan Bread Lamp",
+    "storeLink": "https://shop.yukikomorita.com/en/products/pampshade0068"
+  },
+  {
+    "title": "A Thousand Feasts by Nigel Slater",
+    "description": "Book",
+    "notes": "Purchased in Glasgow, Scotland",
+    "body": "A beautifully presented volume of reflections, meditations and memories on life in the kitchen, garden and on the move.",
+    "type": ["all", "books"],
+    "url": "/images/a-thousand-feasts.png",
+    "alt": "Green book titled A Thousand Feasts by Nigel Slater"
+  },
+    {
+    "title": "Maison Francis Kurkdjan Grand Soir",
+    "description": "Eau de Parfum",
+    "body": "Before the City’s lights turn on, a range of dazzling colors from honey to a captivating amber paint the sky. Ambery and woody, vibrant and captivating, Grand Soir is an olfactory splendor bursting with sensuality.",
+    "notes": "Purchased in Glasgow, Scotland",
+    "type": ["all", "wardrobe"],
+    "url": "/images/mfk.png",
+    "alt": "A clear glass bottle with a gold cap"
+  },
+      {
+    "title": "Good Dogs",
+    "description": "Book",
+    "notes": "£30.00 from Counter Print",
+    "body": "A playful book full of whimsical artistic interpretations of dogs across breeds, from the Mastiff to the Maltese.",
+    "type": ["all", "home", "want"],
+    "url": "/images/good-dogs.png",
+    "alt": "A purple cover with a minimal illustration of a dog's face",
+    "storeLink": "https://www.counter-print.co.uk/products/good-dogs-canine-companions-in-art-and-illustration"
+  },
+    {
+    "title": "Ami Lunchbox Bag",
+    "description": "Bag",
+    "notes": "Purchased in Paris, France",
+    "body": "Water repellent canvas nylon crossbody bag perfect for everyday use.",
+    "type": ["all", "wardrobe"],
+    "url": "/images/ami-bag.png",
+    "alt": "A black cross body bag from Ami"
+  },
   {
     "title": "Penco Bag Stand",
     "description": "Desk Accessories",
@@ -56,31 +103,13 @@
     "alt": "A navy blue hat with white embroided text"
     },
   {
-    "title": "Gathering of Strangers",
-    "description": "Book",
-    "notes": "Purchased in Glasgow, Scotland",
-    "body": "A book exploring the transformative role of the museum and art in society today - it reminder me of the concepts of the grand tour, wunderkammer and the flâneur.",
-    "type": ["all", "books"],
-    "url": "/images/gathering-of-strangers.png",
-    "alt": "Orange book titled Gathering of Strangers by Maria Balshaw"
-  },
-  {
-    "title": "Capitol Cuts",
+    "title": "Sounds of Fischer Vol. 1",
     "description": "Vinyl",
-    "notes": "Purchased in Glasgow, Scotland",
-    "body": "One of my newly discovered favourites, Black Pumas is one of the latest addition to the vinyl collection.",
+    "notes": "Purchased from Reykjavík, Iceland",
+    "body": "Created by Jónsi, Kjartan Holm, Sindri Már Sigfússon (Sin Fang) and Alex Somers to transport listeners through the memories of growing up in Iceland, this is one of the latest addition to the vinyl collection.",
     "type": ["all", "home"],
-    "url": "/images/capitol-cuts.png",
-    "alt": "A red vinyl from Black Pumas"
-  },
-  {
-    "title": "Acne Studios Atton Face",
-    "description": "Bag",
-    "notes": "Purchased in Glasgow, Scotland",
-    "body": "Waterproof, recycled ripstop backpack for the everyday commute.",
-    "type": ["all", "work"],
-    "url": "/images/atton-face.png",
-    "alt": "A waterproof, black ripstop backpack from Acne Studios"
+    "url": "/images/fischer.png",
+    "alt": "A black background with dried flowers for a vinyl cover"
   },
   {
     "title": "Twemco Cylinder Flip Clock",
@@ -141,15 +170,6 @@
     "alt": "A kit kat bar made in leather from Anya Hindmarch"
   },
   {
-    "title": "Aesop Rozu",
-    "description": "Eau de Parfum",
-    "body": "Inspired by French modernist Charlotte Perriand, it is a fragrance of tender intensity. Floral, green and woody.",
-    "notes": "A gift from Glasgow, Scotland",
-    "type": ["all", "wardrobe"],
-    "url": "/images/aesop-rozu.png",
-    "alt": "An amber glass Aesop perfume bottle with a black cap"
-  },
-  {
     "title": "Audo CPH JWDA Lamp",
     "description": "Lamp",
     "body": "Inspired by traditional oil lamps and crafted in glass, solid metal and a brass dimmer switch, the JWDA Portable has the freedom and flexibility to move anywhere you want.",
@@ -184,15 +204,6 @@
     "type": ["all", "books"],
     "url": "/images/white.png",
     "alt": "A book exploring the concept of white by Kenya Hara"
-  },
-  {
-    "title": "Creative Selection",
-    "description": "Book",
-    "notes": "Purchased in Glasgow, Scotland",
-    "body": "Thsi is still one of my favourite “product” books to date - favourite snippet was about how the keyboard on iPhones were made.",
-    "type": ["all", "books"],
-    "url": "/images/creative-selection.png",
-    "alt": "A book that talks design and minimalism by Kenya Hara"
   },
   {
     "title": "Baggu Puffy Sleeve",
