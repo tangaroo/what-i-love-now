@@ -1,5 +1,14 @@
 [
-    {
+  {
+    "title": "Mon Paris des Toujours by Marin Montagut",
+    "description": "Book",
+    "notes": "Purchased from Paris, France",
+    "body": "A Guide to the Timeless Soul of the City” by Marin Montagut, a beautiful home store I discovered on my last trip to Paris, is my first French book. It showcases the brand’s favourite Parisian spots through elegant illustrations and typography, reflecting the store’s signature style and identity.",
+    "type": ["all", "books"],
+    "url": "/images/marin-montagut.png",
+    "alt": "Forever Paris from Marin Montagut in French"
+  },  
+  {
     "title": "Melonpan Bread Lamp",
     "description": "Lamp",
     "notes": "£99.00 from Yukiko Morita",
@@ -222,15 +231,6 @@
     "type": ["all", "home"],
     "url": "/images/stax-burger.png",
     "alt": "A set of wooden coasters that form a hamburger"
-  },
-  {
-    "title": "Small Pleasures",
-    "description": "Book",
-    "notes": "Purchased in Berlin, Germany",
-    "body": "A souvenir from The School of Life store just around my old workplace, it is a beautifully written book that reminds us the joy of the small things in life.",
-    "type": ["all", "books"],
-    "url": "/images/small-pleasures.png",
-    "alt": "Small Pleasures book by The School of Life"
   },
   {
     "title": "DOIY Bento",
