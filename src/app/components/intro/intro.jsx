@@ -6,7 +6,7 @@ export default function Intro() {
           Dieter Rams’ once said, <i>“Good design makes a product useful”</i>.
         </p>
         <p className="text-sm text-slate-800">
-          I'm 31. What I love now is a simple inventory of 31 curated everyday items that
+          I'm 32. What I love now is a simple inventory of 32 curated everyday items that
           I currently love and use (or want) in my daily life as a designer.
         </p>
         <p className="text-sm pt-8 text-slate-800">
